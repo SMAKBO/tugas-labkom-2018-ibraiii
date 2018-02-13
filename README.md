@@ -8,3 +8,4 @@ Aura ananda haryanto/16.62.08312/aurananda03_github
 Noormalia putri/16.62.08469/Noormaliap_github
 Naura izdihar/16.62.08466/nauraizdhr_github
 Shalsabila Nur Halizah/16.62.08519/Shalsabila_github
+Anida Aulia Hasanah/16.62.08297/nidauls_github
