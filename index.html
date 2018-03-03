@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Vanilin Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<br>
+
+<div class="container">
+
+<div class="row">
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="col-md-4">
+    <div>
+      <a href="index.html"><img src="img/logo.png" width="150"></a>
+    </div>
+    </div>
+    <div class="col-md-8">
+    <div>
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Vanilin
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li><a href="history.html">History</a></li>
+               <li><a href="structure.html">Structure</a></li>
+               <li><a href="properties.html">Properties</a></li>
+               <li><a href="useful.html">Useful</a></li>
+               <li><a href="hazard.html">Hazard</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Syntesis</a></li>
+        <li><a href="#">Where to find it?</a></li>
+      </ul>
+       <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    </div>
+    </div>
+</div>
+</nav>
+</div>
+
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+<div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/header.jpg" alt="Chania">
+      <div class="carousel-caption">
+        <h3>Vanilin</h3>
+        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/header1.jpg" alt="Chania">      
+    </div>
+
+    <div class="item">
+      <img src="img/header2.jpg" alt="Flower">
+    </div>
+
+     <div class="item">
+      <img src="img/header3.jpg" alt="Chania">      
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<br><br>
+
+<div class="container-fluid" style="background-color: black">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"></div>
+        <img src="img/logo.png" width="150">
+      <div class="col-md-5"></div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
