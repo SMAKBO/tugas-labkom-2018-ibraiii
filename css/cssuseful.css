@@ -1,5 +1,7 @@
-body {background: #FFF5EE;
-	font-family: "Quicksand", cursive;}
+body {
+	background: #FFF5EE;
+	font-family: "Quicksand", cursive;
+}
 
 h1	{text-align: center;
 	font-size: 110vw;}
