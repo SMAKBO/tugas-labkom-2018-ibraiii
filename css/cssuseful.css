@@ -1,0 +1,15 @@
+body {background: #FFF5EE;
+	font-family: "Quicksand", cursive;}
+
+h1	{text-align: center;
+	font-size: 110vw;}
+p	{font-size: 22px;
+	background-color: green;
+	text-align: center;
+	font-family: "Quicksand", cursive;}
+#satu { background-color: lightgrey;
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+	font-size: 15px;
+	font-family: "Quicksand", cursive;}
