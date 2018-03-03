@@ -1,0 +1,42 @@
+body{
+	background: #FFF5EE;
+	font-family: "Quicksand", cursive;
+	text-align: center;
+	color: #000000;
+	font-size: 20px;
+}
+
+p{
+	padding: 30px;
+	background-color: #FFF8DC
+}
+
+h1 {
+	font-family: "Playfair Display", cursive;
+}
+h2 {
+	font-family: "Amatic SC", cursive;
+}
+h3 {
+	font-family: "Crafty Girls", cursive;
+}
+h4 {
+	font-family: "Pacifico", cursive;
+}
+
+body, html {
+    height: 100%;
+    color: #00000;
+    line-height: 1.8;
+}
+
+.container {
+
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
