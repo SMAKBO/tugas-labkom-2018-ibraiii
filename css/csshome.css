@@ -1,10 +1,9 @@
 body{
-	background: #FFF5EE;
+	background: #F4E6D7;
 	font-family: "Quicksand", cursive;
 	text-align: center;
 	color: #000000;
-	font-size: 20px;
-	height: 100%;
+	font-size: 18px;
     line-height: 1.8;
 }
 
@@ -17,6 +16,12 @@ h1 {
 	font-family: "Playfair Display", cursive;
 }
 
+.container{
+	background: #FFF5EE;
+	width: 87%;
+	height: 87%;
+}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
@@ -24,11 +29,11 @@ h1 {
   }
 
 .footer{
-	background: #F4E6D7
+	background: #e0cecc
 }
 
 a {
-    background-color: #F4E6D7;
+    background-color: #e0cecc;
     color: black;
     padding: 14px 25px;
     text-align: center;
@@ -44,13 +49,12 @@ img{
 	border-radius: 50%;
 }
 
-
 .slideanim {visibility:visible;}
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
       visibility: visible;
   }
 @keyframes slide {
