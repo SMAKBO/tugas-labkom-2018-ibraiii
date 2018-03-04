@@ -4,6 +4,8 @@ body{
 	text-align: center;
 	color: #000000;
 	font-size: 20px;
+	height: 100%;
+    line-height: 1.8;
 }
 
 p{
@@ -14,25 +16,6 @@ p{
 h1 {
 	font-family: "Playfair Display", cursive;
 }
-h2 {
-	font-family: "Amatic SC", cursive;
-}
-h3 {
-	font-family: "Crafty Girls", cursive;
-}
-h4 {
-	font-family: "Pacifico", cursive;
-}
-
-body, html {
-    height: 100%;
-    color: #00000;
-    line-height: 1.8;
-}
-
-.container {
-
-}
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -40,3 +23,53 @@ body, html {
       margin: auto;
   }
 
+.footer{
+	background: #F4E6D7
+}
+
+a {
+    background-color: #F4E6D7;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.col-md-9{
+	top: 30px;
+}
+
+img{
+	border-radius: 50%;
+}
+
+
+.slideanim {visibility:visible;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
