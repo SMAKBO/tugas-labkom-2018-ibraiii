@@ -1,17 +1,67 @@
-body {
-	background: #FFF5EE;
+body {background: #F4E6D7;
 	font-family: "Quicksand", cursive;
-}
-
-h1	{text-align: center;
-	font-size: 110vw;}
-p	{font-size: 22px;
-	background-color: green;
 	text-align: center;
+	color: #000000;
+	font-size: 18px;
+    line-height: 1.8;}
+
+h1	{background-color : #FFF5EE;
+	text-align: center;
+	font-size: 110vw;
 	font-family: "Quicksand", cursive;}
-#satu { background-color: lightgrey;
-    border: 5px solid green;
-    padding: 25px;
-    margin: 25px;
-	font-size: 15px;
-	font-family: "Quicksand", cursive;}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;}
+
+div.gallery:hover {
+    border: 1px solid #777;}
+
+div.gallery img {
+    width: 100%;
+    height: auto;}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+	font-family: "Quicksand", cursive;
+	font-size:12px;}
+
+#satu { padding: 10px;
+    border: 5px black;
+    margin: 0;
+    height: auto;
+	font size: 100vw;
+	font-family: "Quicksand", cursive;
+	text-align: justify;
+	background: azure;}
+
+#dua { padding: 10px;
+    border: 5px black;
+    margin: 0;
+	font size: 100px;
+	font-family: "Quicksand", cursive;
+	background: azure;}
+
+#tiga { padding: 10px;
+    border: 5px black;
+    margin: 0;
+	font size: 25px;
+	font-family: "Quicksand", cursive;
+	background: azure;}
+
+#empat { padding: 10px;
+    border: 5px black;
+    margin: 0;
+	font size: 25px;
+	font-family: "Quicksand", cursive;
+	background: azure;}
+
+#lima { padding: 10px;
+    border: 5px black;
+    margin: 0;
+	font size: 25px;
+	font-family: "Quicksand", cursive;
+	background: azure;}
