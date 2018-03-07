@@ -30,6 +30,10 @@ h1 {
 
 .header{
 	background: #e0cecc
+	width: 1000px;
+	height: 176px;
+	float: left;
+	background: url(img/properties.gif)
 }
 
 .footer{
