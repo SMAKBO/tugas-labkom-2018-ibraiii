@@ -1,8 +1,31 @@
 body{
-	background: #FFF5EE;
+	background: #F4E6D7;
 }
 h1 {text-align: center}
 h4 {color:#000000;}
 body {font-family: "Quicksand",cursive;
 color:#000000;
 font-size: 18px}
+
+.container{
+	background: #FFF5EE;
+	width: 87%;
+	height: 87%;
+}
+
+.footer{
+	background: #e0cecc
+}
+
+a {
+    background-color: #e0cecc;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.col-md-9{
+	top: 30px;
+}
