@@ -67,10 +67,6 @@ div.desc {
 	font size: 25px;
 	font-family: "Quicksand", cursive;
 	background: azure;}
-.footer{
-	background: #e0cecc
-}
-
 a {
     background-color: #e0cecc;
     color: black;
@@ -82,4 +78,8 @@ a {
 
 .col-md-9{
 	top: 30px;
+}
+
+.footer{
+	background: #e0cecc
 }
