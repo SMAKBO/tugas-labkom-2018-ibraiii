@@ -18,11 +18,7 @@ h1 {
 	height: 87%;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+
 
 .footer{
 	background: #e0cecc
@@ -41,35 +37,3 @@ a {
 	top: 30px;
 }
 
-img{
-	border-radius: 50%;
-}
-
-.slideanim {visibility:visible;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 2s;
-      -webkit-animation-duration: 2s;
-      visibility: visible;
-  }
-@keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-}
