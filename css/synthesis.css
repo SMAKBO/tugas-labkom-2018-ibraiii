@@ -10,3 +10,22 @@
 }
 .foto{width: 100px
 height:100px;}
+
+.container{background: #FFF5EE;
+	width: 87%;
+	height: 87%;}
+
+.footer{background: #e0cecc}
+
+a 	{background-color: #e0cecc;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
+
+.col-md-9{top: 30px;}
+
+img{border-radius: 50%;}
+
+.footer{background: #e0cecc}
