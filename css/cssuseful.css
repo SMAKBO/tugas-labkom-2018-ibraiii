@@ -1,4 +1,4 @@
-body {
+body{
 	background: #F4E6D7;
 	font-family: "Quicksand", cursive;
 	text-align: center;
@@ -7,66 +7,31 @@ body {
     line-height: 1.8;
 }
 
-h1	{background-color : #FFF5EE;
-	text-align: center;
-	font-size: 110vw;
-	font-family: "Quicksand", cursive;}
+p{
+	padding: 30px;
+	background-color: #FFF8DC
+}
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;}
+h1 {
+	font-family: "Playfair Display", cursive;
+}
 
-div.gallery:hover {
-    border: 1px solid #777;}
+.container{
+	background: #FFF5EE;
+	width: 87%;
+	height: 87%;
+}
 
-div.gallery img {
-    width: 100%;
-    height: auto;}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
 
-div.desc {
-    padding: 5px;
-    text-align: center;
-	font-family: "Quicksand", cursive;
-	font-size:12px;}
+.footer{
+	background: #e0cecc
+}
 
-#satu { padding: 10px;
-    border: 5px black;
-    margin: 0;
-    height: auto;
-	font size: 100vw;
-	font-family: "Quicksand", cursive;
-	text-align: justify;
-	background: azure;}
-
-#dua { padding: 10px;
-    border: 5px black;
-    margin: 0;
-	font size: 100px;
-	font-family: "Quicksand", cursive;
-	background: azure;}
-
-#tiga { padding: 10px;
-    border: 5px black;
-    margin: 0;
-	font size: 25px;
-	font-family: "Quicksand", cursive;
-	background: azure;}
-
-#empat { padding: 10px;
-    border: 5px black;
-    margin: 0;
-	font size: 25px;
-	font-family: "Quicksand", cursive;
-	background: azure;}
-
-#lima { padding: 10px;
-    border: 5px black;
-    margin: 0;
-	font size: 25px;
-	font-family: "Quicksand", cursive;
-	background: azure;}
 a {
     background-color: #e0cecc;
     color: black;
@@ -80,6 +45,35 @@ a {
 	top: 30px;
 }
 
-.footer{
-	background: #e0cecc
+img{
+	border-radius: 50%;
+}
+
+.slideanim {visibility:visible;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      visibility: visible;
+  }
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
 }
