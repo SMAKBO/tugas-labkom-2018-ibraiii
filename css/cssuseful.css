@@ -1,4 +1,4 @@
-body   {background: #F4E6D7;
+body    {background: #F4E6D7;
 	font-family: "Quicksand", cursive;
 	text-align: center;
 	color: #000000;
@@ -8,52 +8,27 @@ body   {background: #F4E6D7;
 p	{padding: 30px;
 	background-color: #FFF8DC}
 
-h1 {
-	font-family: "Playfair Display", cursive;
-}
+h1 	{ font-family: "Playfair Display", cursive;}
 
-.container{
-	background: #FFF5EE;
+.container{background: #FFF5EE;
 	width: 87%;
-	height: 87%;
-}
+	height: 87%;}
 
+.footer{background: #e0cecc}
 
-
-.footer{
-	background: #e0cecc
-}
-
-a {
-    background-color: #e0cecc;
+a 	{background-color: #e0cecc;
     color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-}
+    display: inline-block;}
 
-.col-md-9{
-	top: 30px;
-}
-img{
-	border-radius: 50%;
-}
-.footer{
-	background: #e0cecc
-}
+.col-md-9{top: 30px;}
 
-a {
-    background-color: #e0cecc;
-    color: black;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+img{border-radius: 50%;}
 
-.col-md-9{
-	top: 30px;
-}
+.footer{background: #e0cecc}
+
+
 
 
