@@ -1,16 +1,12 @@
-body{
-	background: #F4E6D7;
+body   {background: #F4E6D7;
 	font-family: "Quicksand", cursive;
 	text-align: center;
 	color: #000000;
 	font-size: 18px;
-    line-height: 1.8;
-}
+	line-height: 1.8;}
 
-p{
-	padding: 30px;
-	background-color: #FFF8DC
-}
+p	{padding: 30px;
+	background-color: #FFF8DC}
 
 h1 {
 	font-family: "Playfair Display", cursive;
