@@ -1,10 +1,10 @@
 body{
-	background: #F4E6D7;
+	background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
 	font-family: "Quicksand", cursive;
 	text-align: center;
 	color: #000000;
 	font-size: 18px;
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 p{
@@ -16,24 +16,30 @@ h1 {
 	font-family: "Playfair Display", cursive;
 }
 
+div.polaroid {
+  width: 120;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
 .container{
 	background: #FFF5EE;
-	width: 87%;
-	height: 87%;
+	width: 80%;
+	height: 80%;
 }
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 70%;
+      width: 50%;
       margin: auto;
   }
 
-.header{
-	width: 1000px;
-	height: 176px;
-	float: left;
-	background-image: url("img/properties.gif");
-}
 
 .footer{
 	background: #e0cecc
@@ -48,11 +54,17 @@ a {
     display: inline-block;
 }
 
-.col-md-9{
-	top: 30px;
+.col-md-10{
+	top: 35px;
 }
 
-img{
+.navigasi{
+          background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
+          max-width: 100%;
+          height: auto;
+}
+
+.foto{
 	border-radius: 50%;
 }
 
