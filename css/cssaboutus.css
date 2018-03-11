@@ -4,10 +4,10 @@ body{
 	text-align: center;
 	color: #000000;
 	font-size: 18px;
-  line-height: 1.8;
+ 	line-height: 1.8;
 }
 
-.data{
+p{
 	padding: 30px;
 	background-color: #FFF8DC
 }

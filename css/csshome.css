@@ -16,7 +16,7 @@ h1{
   font-size: 40px;
 }
 
-h1,h4 {
+h1,h4{
 	font-family: "Playfair Display", cursive;
 }
 
@@ -26,7 +26,11 @@ h1,h4 {
 }
 
 .col-md-2{
-  left:20px;
+  left: 10px;
+}
+
+.about{
+  border-right: 2px solid #FFF8DC;
 }
 
 div.polaroid {
@@ -72,9 +76,9 @@ a {
 }
 
 .navigasi{
-          background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
-          max-width: 100%;
-          height: auto;
+  background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
+  max-width: 100%;
+  height: auto;
 }
 
 .foto{
@@ -127,11 +131,11 @@ div.gallery img {
     background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2018-ibraiii/master/img/header.jpg");
 
     /* Set a specific height */
-    min-height: 555px; 
+    min-height: 450px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
