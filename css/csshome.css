@@ -9,7 +9,7 @@ body{
 
 p{
 	padding: 30px;
-	background-color: #FFF8DC
+	background-color: #FFF8DC;
 }
 
 h1{
@@ -23,6 +23,10 @@ h1,h4{
 .col-md-3{
   top: 30px;
   left: 50px;
+}
+
+.col-md-4{
+  bottom: 200px;
 }
 
 .col-md-2{
@@ -85,15 +89,16 @@ a {
 	border-radius: 50%;
 }
 
-.slideanim {visibility:visible;}
+.slideanim {visibility:hidden;}
   .slide {
       animation-name: slide;
       -webkit-animation-name: slide;
-      animation-duration: 2s;
-      -webkit-animation-duration: 2s;
+      animation-duration: 7s;
+      -webkit-animation-duration: 7s;
       visibility: visible;
   }
-@keyframes slide {
+
+  @keyframes slide {
     0% {
       opacity: 0;
       transform: translateY(70%);
@@ -103,6 +108,7 @@ a {
       transform: translateY(0%);
     }
   }
+
   @-webkit-keyframes slide {
     0% {
       opacity: 0;
@@ -124,6 +130,10 @@ div.gallery img {
     float: left;
     width: 33.3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name{
+  background-color: #FFF5EE;
 }
 
 .parallax {
