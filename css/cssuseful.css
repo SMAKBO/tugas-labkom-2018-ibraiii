@@ -1,4 +1,4 @@
-body    {background: #F4E6D7;
+body {background: #F4E6D7;
 	font-family: "Quicksand", cursive;
 	text-align: center;
 	color: #000000;
@@ -6,9 +6,13 @@ body    {background: #F4E6D7;
 	line-height: 1.8;}
 
 p	{padding: 30px;
-	background-color: #FFF8DC}
+	background-color: #FFF8DC;
+	font-family: "Quicksand", cursive;
+	text-align: justify;
+	border-right: 6px solid burlywood;}
 
-h1 	{ font-family: "Playfair Display", cursive;}
+
+
 
 .container{background: #FFF5EE;
 	width: 87%;
@@ -25,10 +29,23 @@ a 	{background-color: #e0cecc;
 
 .col-md-9{top: 30px;}
 
-img{border-radius: 50%;}
+.dropdown {position: relative;
+    display: inline-block;
+	float:left;}
+
+.dropdown-content {display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.desc {padding: 15px;
+    text-align: center;}
 
 .footer{background: #e0cecc}
-
 
 
 
