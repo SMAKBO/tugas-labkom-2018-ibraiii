@@ -12,8 +12,21 @@ p{
 	background-color: #FFF8DC
 }
 
-h1 {
+h1{
+  font-size: 40px;
+}
+
+h1,h4 {
 	font-family: "Playfair Display", cursive;
+}
+
+.col-md-3{
+  top: 30px;
+  left: 50px;
+}
+
+.col-md-2{
+  left:20px;
 }
 
 div.polaroid {
@@ -96,3 +109,32 @@ a {
       -webkit-transform: translateY(0%);
     }
   }
+
+div.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+.responsive {
+    padding: 6px;
+    float: left;
+    width: 33.3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2018-ibraiii/master/img/header.jpg");
+
+    /* Set a specific height */
+    min-height: 555px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fa fa-instagram{
+  font-size:20px
+}
