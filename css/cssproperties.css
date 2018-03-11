@@ -2,16 +2,29 @@ body{
 	background: #F4E6D7;
 }
 h1 {text-align: center}
-h4 {color:#000000;}
+h4 {color:#000000;
+	padding: 20px;
+	background-color:#fff8dc;}
+h3 {text-align: center;
+	font-size: 30px
+	;}
+
 body {font-family: "Quicksand",cursive;
 color:#000000;
 font-size: 18px}
 
+
+
+h2 {text-align: center}
 .container{
 	background: #FFF5EE;
 	width: 87%;
 	height: 87%;
+	text-align: center
+
 }
+
+
 
 .footer{
 	background: #e0cecc
