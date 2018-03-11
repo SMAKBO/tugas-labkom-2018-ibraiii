@@ -1,0 +1,140 @@
+body{
+	background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
+	font-family: "Quicksand", cursive;
+	text-align: center;
+	color: #000000;
+	font-size: 18px;
+  line-height: 1.8;
+}
+
+p{
+	padding: 30px;
+	background-color: #FFF8DC
+}
+
+h1{
+  font-size: 40px;
+}
+
+h1,h4 {
+	font-family: "Playfair Display", cursive;
+}
+
+.col-md-3{
+  top: 30px;
+  left: 50px;
+}
+
+.col-md-2{
+  left:20px;
+}
+
+div.polaroid {
+  width: 120;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.container{
+	background: #FFF5EE;
+	width: 80%;
+	height: 80%;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+
+
+.footer{
+	background: #e0cecc
+}
+
+a {
+    background-color: #e0cecc;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.col-md-10{
+	top: 35px;
+}
+
+.navigasi{
+          background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
+          max-width: 100%;
+          height: auto;
+}
+
+.foto{
+	border-radius: 50%;
+}
+
+.slideanim {visibility:visible;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      visibility: visible;
+  }
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+div.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+.responsive {
+    padding: 6px;
+    float: left;
+    width: 33.3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2018-ibraiii/master/img/header.jpg");
+
+    /* Set a specific height */
+    min-height: 555px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fa fa-instagram{
+  font-size:20px
+}
