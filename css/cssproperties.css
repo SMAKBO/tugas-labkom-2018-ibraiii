@@ -1,3 +1,5 @@
+
+
 body{
 	background: #F4E6D7;
 }
@@ -13,7 +15,38 @@ body {font-family: "Quicksand",cursive;
 color:#000000;
 font-size: 18px}
 
+.column {
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+}
 
+
+.left {
+  width: 35%;
+  height: 1300px;
+  background-color: #d08386;
+}
+
+.right {
+  width: 60%;
+  height:1300px;
+}
+
+
+
+
+
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 h2 {text-align: center}
 .container{
@@ -25,9 +58,50 @@ h2 {text-align: center}
 }
 
 
+body{
+    background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
+    font-family: "Quicksand", cursive;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+}
+
+h1,h4 {
+    font-family: "Playfair Display", cursive;
+}
+
+.col-md-3{
+  top: 30px;
+  left: 30px;
+}
+
+.col-md-2{
+  left: 10px;
+}
+
+
+.col-md-4{
+  bottom: 200px;
+}
+.about{
+  border-right: 2px solid #FFF8DC;
+}
+
+div.container {
+  text-align: center;
+}
+
+.container{
+    background: #FFF5EE;
+    width: 80%;
+    height: 80%;
+}
 
 .footer{
-	background: #e0cecc
+    background: #e0cecc
 }
 
 a {
@@ -39,6 +113,37 @@ a {
     display: inline-block;
 }
 
-.col-md-9{
-	top: 30px;
+.col-md-10{
+    top: 35px;
+    left:30px;
 }
+
+.navigasi{
+          background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
+          max-width: 100%;
+          height: auto;
+}
+
+
+.name{
+  background-color: #FFF5EE;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2018-ibraiii/master/img/header.jpg");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.fa fa-instagram{
+  font-size:20px
+}
+
+.kursor{cursor: url(http://cur.cursors-4u.net/food/foo-1/foo65.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/09/23/foo65.html" target="_blank" title="Vanilla Ice Cream"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Vanilla Ice Cream" style="position:absolute; top: 0px; right: 0px;" />}
