@@ -57,7 +57,9 @@ a {
 	top: 35px;
 	left: 30px;
 }
-
+.col-md-4{
+  bottom: 200px;
+}
 .navigasi{
           background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
           max-width: 100%;
@@ -76,7 +78,9 @@ a {
     background-position: center top;
     background-repeat: no-repeat;
 }
-
+.name{
+  background-color: #FFF5EE;
+}
 .fa fa-instagram{
   font-size:20px
 }
