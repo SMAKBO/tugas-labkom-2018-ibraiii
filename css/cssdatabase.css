@@ -18,7 +18,7 @@ h1,h4 {
 
 .col-md-3{
   top: 30px;
-  left: 50px;
+  left: 30px;
 }
 
 .col-md-2{
@@ -55,6 +55,7 @@ a {
 
 .col-md-10{
 	top: 35px;
+	left:30px;
 }
 
 .navigasi{
