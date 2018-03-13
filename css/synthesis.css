@@ -29,3 +29,11 @@ a 	{background-color: #e0cecc;
 img{border-radius: 50%;}
 
 .footer{background: #e0cecc}
+
+.about{
+  border-right: 2px solid #FFF8DC;
+}
+
+.col-md-2{
+  left: 10px;
+}
