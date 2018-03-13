@@ -34,7 +34,10 @@ div.container {
   padding: 10px 20px;
 }
 
-p {background-color: #FFF8DC;}
+p{
+  padding: 30px;
+  background-color: #FFF8DC
+}
 
 .container{
 	background: #FFF5EE;
