@@ -1,10 +1,10 @@
-body    {background: #F4E6D7;
-	font-family: "Quicksand", cursive;
-	text-align: center;
-	color: #000000;
-	font-size: 18px;
-	line-height: 1.8;}
-
+body    {background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
+    font-family: "Quicksand", cursive;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.8;}
+}
 p	{padding: 30px;
 	background-color: #FFF8DC}
 
@@ -13,6 +13,13 @@ h1 	{ font-family: "Playfair Display", cursive;}
 .container{background: #FFF5EE;
 	width: 87%;
 	height: 87%;}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
 
 .footer{background: #e0cecc}
 
@@ -25,6 +32,75 @@ a 	{background-color: #e0cecc;
 
 .col-md-9{top: 30px;}
 
+.navigasi{
+  background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
+  max-width: 100%;
+  height: auto;
+}
+
+.foto{
+	border-radius: 50%;
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 7s;
+      -webkit-animation-duration: 7s;
+      visibility: visible;
+  }
+
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+
+}
+
+.name{
+  background-color: #FFF5EE;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2018-ibraiii/master/img/header.jpg");
+
+    /* Set a specific height */
+    min-height: 450px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.fa fa-instagram{
+  font-size:20px
+}
+
 img{border-radius: 50%;}
 
 .footer{background: #e0cecc}
+
+
+
+.kursor{cursor: url(http://cur.cursors-4u.net/food/foo-1/foo65.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/09/23/foo65.html" target="_blank" title="Vanilla Ice Cream"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Vanilla Ice Cream" style="position:absolute; top: 0px; right: 0px;" />}
