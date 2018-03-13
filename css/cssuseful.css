@@ -1,19 +1,19 @@
 body{
-	background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
-	font-family: "Quicksand", cursive;
-	text-align: center;
-	color: #000000;
-	font-size: 18px;
+  background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
+  font-family: "Quicksand", cursive;
+  text-align: center;
+  color: #000000;
+  font-size: 18px;
   line-height: 1.8;
 }
 
 .data{
-	padding: 30px;
-	background-color: #FFF8DC
+  padding: 30px;
+  background-color: #FFF8DC
 }
 
 h1,h4 {
-	font-family: "Playfair Display", cursive;
+  font-family: "Quicksand", cursive;
 }
 
 .col-md-3{
@@ -34,20 +34,30 @@ div.container {
   padding: 10px 20px;
 }
 
-p{
-  padding: 30px;
-  background-color: #FFF8DC
-}
-
 .container{
-	background: #FFF5EE;
-	width: 80%;
-	height: 80%;
+  background: #FFF5EE;
+  width: 80%;
+  height: 80%;}
+
+.img2 {float:right; left:10px;}
+
+.img3 {float:left;}
+
+p {background-color: #FFF8DC;
+  font-size: 25px;
+  text-align: justify;
+  margin-right: 10px}
+
+p.round3 {
+    border: 2px solid purple;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 39px;
+    border-style: dotted
 }
 
 .footer{
-	background: #e0cecc
-}
+  background: #e0cecc}
 
 a {
     background-color: #e0cecc;
@@ -59,8 +69,8 @@ a {
 }
 
 .col-md-10{
-	top: 35px;
-	left: 30px;
+  top: 35px;
+  left: 30px;
 }
 
 .navigasi{
