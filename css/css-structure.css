@@ -1,0 +1,61 @@
+body{
+	background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62bb9a3d4e663c822d6ae.jpg");
+	font-family: "Quicksand", cursive;
+	text-align: center;
+	color: #000000;
+	font-size: 18px;
+    line-height: 1.8;
+}
+
+p{
+	padding: 30px;
+	background-color: #F4E6D7
+}
+
+h1 {
+	font-family: "Playfair Display", cursive;
+}
+
+.container{
+	background: #FFF5EE;
+	width: 80%;
+	height: 80%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.foto{align:center;}
+
+
+.footer{
+	background: #e0cecc
+}
+
+
+a {
+    background-color: #e0cecc;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.col-md-3{
+  top: 30px;
+  left: 30px;
+}
+.col-md-4{
+  bottom: 200px;
+}
+
+
+
+.col-md-9{
+	top: 30px;
+}
+
+.kursor{cursor: url(http://cur.cursors-4u.net/food/foo-1/foo65.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/09/23/foo65.html" target="_blank" title="Vanilla Ice Cream"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Vanilla Ice Cream" style="position:absolute; top: 0px; right: 0px;" />}
+
