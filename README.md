@@ -2,7 +2,7 @@
 tugas-labkom-2018-ibraiii created by GitHub Classroom
 Ketua : M Ibra At-Thabrani
 Anggota kelompok:
-  Programmer :(Ahmad Nur Hakim / 16.62.08280 / nurhakim_14)
+  Programmer :(Ahmad Nur Hakim / 16.62.08280 / nurhakim14)
               (M Ibra At-Thabrani / 16.62.08422/ ibraiii)
   Writer :(Naura Izdihar / 16.62.08466 / nauraizdhr)
           (Shalsabila Nur Halizah / 16.62.08519 / Shalsabila)
