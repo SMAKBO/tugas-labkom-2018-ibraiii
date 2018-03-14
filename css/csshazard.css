@@ -55,18 +55,6 @@ a 	{background-color: #e0cecc;
     text-decoration: none;
     display: inline-block;}
 
-.parallax {
-    /* The image used */
-    background-image: url("https://raw.githubusercontent.com/SMAKBO/tugas-labkom-2018-ibraiii/master/img/header.jpg");
-
-    /* Set a specific height */
-    min-height: 450px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center top;
-    background-repeat: no-repeat;
-}
 
 .navigasi{
   background-image: url("http://www.zingerbug.com/Backgrounds/background_images/pastel_purple_bamboo_wallpaper_tileable.jpg");
