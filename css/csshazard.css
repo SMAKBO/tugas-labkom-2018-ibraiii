@@ -4,11 +4,24 @@ body    {background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62
     color: #000000;
     font-size: 18px;
     line-height: 1.8;}
+.data{
+  padding: 30px;
+  background-color: #FFF8DC
 }
+
 p	{padding: 30px;
 	background-color: #FFF8DC}
 
 h1 	{ font-family: "Playfair Display", cursive;}
+
+.col-md-3{
+  top: 30px;
+  left: 30px;
+}
+
+.col-md-2{
+  left: 10px;
+}
 
 .container{background: #FFF5EE;
 	width: 87%;
@@ -20,7 +33,14 @@ h1 	{ font-family: "Playfair Display", cursive;}
       width: 50%;
       margin: auto;
   }
+.about{
+  border-right: 2px solid #FFF8DC;
+}
 
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
 .footer{background: #e0cecc}
 
 a 	{background-color: #e0cecc;
@@ -113,6 +133,11 @@ a 	{background-color: #e0cecc;
 
 .fa fa-instagram{
   font-size:20px
+}
+
+.col-md-10{
+  top: 35px;
+  left: 30px;
 }
 
 img{border-radius: 50%;}
