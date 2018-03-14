@@ -7,6 +7,16 @@ body{
     line-height: 1.8;
 }
 
+.data{
+	padding: 30px;
+	background-color: #FFF8DC
+}
+
+.col-md-2{
+  left: 10px;
+}
+
+
 p{
 	padding: 30px;
 	background-color: #F4E6D7
@@ -56,6 +66,13 @@ a {
 .col-md-9{
 	top: 30px;
 }
+
+.col-md-10{
+	top: 35px;
+	left: 30px;
+}
+
+
 
 .parallax {
     /* The image used */
