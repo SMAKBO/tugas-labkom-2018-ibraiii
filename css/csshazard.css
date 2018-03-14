@@ -9,10 +9,11 @@ body    {background-image: url("https://i.pinimg.com/564x/cb/17/77/cb17770eccc62
   background-color: #FFF8DC
 }
 
+h1  { font-family: "Playfair Display", cursive;}
+
 p	{padding: 30px;
 	background-color: #FFF8DC}
 
-h1 	{ font-family: "Playfair Display", cursive;}
 
 .col-md-3{
   top: 30px;
@@ -23,9 +24,7 @@ h1 	{ font-family: "Playfair Display", cursive;}
   left: 10px;
 }
 
-.container{background: #FFF5EE;
-	width: 87%;
-	height: 87%;}
+
 
 
 .carousel-inner > .item > img,
@@ -41,6 +40,12 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
+
+.container{background: #FFF5EE;
+  width: 87%;
+  height: 87%;}
+
+
 .footer{background: #e0cecc}
 
 a 	{background-color: #e0cecc;
@@ -49,8 +54,6 @@ a 	{background-color: #e0cecc;
     text-align: center;
     text-decoration: none;
     display: inline-block;}
-
-.col-md-9{top: 30px;}
 
 .parallax {
     /* The image used */
@@ -147,3 +150,4 @@ img{border-radius: 50%;}
 
 
 .kursor{cursor: url(http://cur.cursors-4u.net/food/foo-1/foo65.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2005/09/23/foo65.html" target="_blank" title="Vanilla Ice Cream"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Vanilla Ice Cream" style="position:absolute; top: 0px; right: 0px;" />}
+
